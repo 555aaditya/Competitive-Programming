@@ -6,7 +6,7 @@
 
 # @lc code=start
 class Solution:
-    def sortArray(self, nums: List[int]) -> List[int]:
-        
+    def sortArray(self, nums: List[int]) -> List[int]:           
+
 # @lc code=end
 
