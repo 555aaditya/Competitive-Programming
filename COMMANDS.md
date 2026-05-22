@@ -6,6 +6,12 @@ git commit -m "solve: lc xyz"
 
 git push origin unsolved
 
+gh pr create \
+--base main \
+--head unsolved \
+--title "DSA Progress Update" \
+--body "Solved additional LeetCode problems"
+
 gh pr create --base main --head unsolved --fill
 gh pr merge --squash
 
