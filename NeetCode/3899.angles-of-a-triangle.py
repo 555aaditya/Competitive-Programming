@@ -17,6 +17,7 @@ class Solution:
         ans=[A,B,C]
         ans.sort()
         return ans
+        
 
 
 # @lc code=end
